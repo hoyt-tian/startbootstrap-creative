@@ -9,3 +9,13 @@
 @import "./navbar.scss";
 @import "./masthead.scss";
 @import "./portfolio.scss";
+
+
+.extra-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  &>img {
+    display: block;
+  }
+}
